@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import in.ghostcode.sqlhelper.Note;
+
 /**
  * Created by ghost on 9/18/16.
  */
@@ -60,4 +62,9 @@ public class RecyclerViewNotesAdapter
             context.startActivity(intent);
         }
     }
+
+    public void setNotes(ArrayList<Note> notes) {
+        this.notes = notes;
+    }
 }
+

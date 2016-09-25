@@ -1,4 +1,4 @@
-package in.ghostcode.vault;
+package in.ghostcode.sqlhelper;
 
 import java.io.Serializable;
 
@@ -8,6 +8,9 @@ import java.io.Serializable;
 public class Note implements Serializable {
     private int id;
     private String title, content;
+
+    public Note() {
+    }
 
     public Note(int id, String title, String content) {
         this.id = id;
