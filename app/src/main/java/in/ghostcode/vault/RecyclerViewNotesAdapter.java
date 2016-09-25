@@ -13,7 +13,8 @@ import java.util.ArrayList;
 /**
  * Created by ghost on 9/18/16.
  */
-public class RecyclerViewNotesAdapter extends RecyclerView.Adapter<RecyclerViewNotesAdapter.NotesViewHolder>{
+public class RecyclerViewNotesAdapter
+        extends RecyclerView.Adapter<RecyclerViewNotesAdapter.NotesViewHolder>{
     ArrayList<Note> notes = new ArrayList<>();
     private Context context;
 
